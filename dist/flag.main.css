@@ -1,0 +1,43 @@
+
+.flag {
+  display: inline-block;
+  width: 120px;
+  height: 80px;
+  border: 1px solid #ddd;
+  position: relative;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+.flag-bd {
+  background-color: #006a4e;
+}
+.flag-bd::after {
+  content: '';
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background-color: #f42a41;
+  border-radius: 50%;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.flag-jp {
+  background-color: #ffffff;
+}
+.flag-jp::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #bc002d;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.flag-fr {
+  background: linear-gradient(to right, #002395 33.3%, #ffffff 33.3%, #ffffff 66.6%, #ed2939 66.6%);
+}
