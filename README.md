@@ -20,10 +20,10 @@ A lightweight, pure CSS library to display country flags using simple HTML class
   <img src="/dist/flags/CU.svg" width="50">
   <img src="/dist/flags/BF.svg" width="50">
   <img src="/dist/flags/BL.svg" width="50">
-  <img src="/dist/flags/Bn.svg" width="50">
+  <img src="/dist/flags/BN.svg" width="50">
   <img src="/dist/flags/US.svg" width="50">
   <img src="/dist/flags/PK.svg" width="50">
-  <img src="/dist/flags/SA.svg" width="50">
+  <img src="/dist/flags/SA.svg" width="40">
 </p>
 ## Installation
 
