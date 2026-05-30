@@ -1,0 +1,22 @@
+.flag {
+	background-size: contain;
+	background-position: 50%;
+	background-repeat: no-repeat
+}
+.flag {
+	position: relative;
+	display: inline-block;
+	width: 1.333333em;
+	line-height: 1em
+}
+.flag:before {
+	content: " ";
+}
+/* default */
+.flag-xx {
+	background-image: url(../flags/xx.svg)
+}
+
+.flag-BD, .flag-bd, .Bangladesh{
+	background-image: url(../flags/BD.svg)
+}
